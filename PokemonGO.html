@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="css/global.css" type="text/css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crete+Round|Exo+2|Karla|Rajdhani" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+    <div class="PageWrap">
+        <nav class="nav-main">
+            <ul>
+                <li>
+                    <a href="#" class="logo">Elementally</a>
+                </li>
+                <li>
+                    <a href="index.html" class="nav-item">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-item">Games<span class="arrow">&#9660</span></a>
+                    <div class="nav-content">
+                        <div class="nav-sub">
+                            <ul>
+                                <li><a href="PC-Games.html">PC</a></li>
+                                <li><a href="Console-Games.html">Console</a></li>
+                                <li><a href="Mobile-Games.html">Mobile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="AboutUs.html" class="nav-item">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <center><img class="GameCoverArt" src="images/PokemonGO_Cover.jpg" alt="Pokemon GO cover art" /></center>
+        <h1 class="SectionHeader"><b>Game Summary</b></h1>
+        <div class="SectionText">
+            <p><span class="TextFirstWord">Pokemon GO</span> is a mobile game requiring the player to leave their couch/bedroom and go outside in order to play.<br />
+            Due to this need to go outside, players began to roam their streets and parks looking for Pokemon, and as more people joined in the game continued to grow.<br />
+            <br />
+            The game revolves around the player utilizing the "augmented reality" feature of pointing their camera around in order to find and catch a Pokemon, once
+            the player has caught a Pokemon they may use them in order to battle and capture gyms.
+            </p>
+        </div>
+        <h1 class="SectionHeader"><b>Game Play</b></h1>
+        <div class="GameplayContainer">
+            <center><img class="GameplayPictureFirst" src="images/PokemonGO_Gameplay1.jpg" alt="Pokemon GO on devices"/></center>
+            <center><img class="GameplayPicture" src="images/PokemonGO_Gameplay2.png" alt="Player catching Pokemon"/></center>
+        </div>
+        <h1 class="SectionHeader"><b>Elemental Aspects</b></h1>
+        <div class="SectionText">
+            <p><span class="TextFirstWord">Pokemon GO</span> is indeed based around the <em>Pokemon</em> universe, which is widely known for its long and indepth
+            list of <span class="Elemental">Elements</span>.<br />
+            Elements are handled in a way that requires the player to strategize over which Pokemon of which <span class="Elemental">Element</span> to use due to the game's focus
+            on the "strength and weaknesses" system of tackling elements.<br />
+            This means that a <span class="Fire">Fire</span> Pokemon will typically get beaten by a <span class="Water">Water</span> Pokemon, or a <span class="Earth">Grass</span>
+            Pokemon will get beat by a <span class="Fire">Fire</span> Pokemon.<br />
+            </p>
+        </div>
+	</div>
+       	<div class="RemoveJS">
+        <script class="JSInjection">
+                    var s = document.querySelectorAll(".nav-sub > ul > li > a");
+                    var i;
+                    for(i=0; i< s.length; i++){
+                        s[i].addEventListener('mousedown', function(e){
+                            e.preventDefault();
+                        });
+                    }
+            </script>?
+            </div>
+            <footer class="SiteFooter">
+                <em><p>(c) 2018 Elementally</p></em>
+            </footer>
+    </body>
+</html>

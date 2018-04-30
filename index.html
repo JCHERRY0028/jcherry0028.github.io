@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <link href="css/global.css" type="text/css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crete+Round|Exo+2|Karla|Rajdhani" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+    <div class="PageWrap">
+        <nav class="nav-main">
+            <ul>
+                <li>
+                    <a href="#" class="logo">Elementally</a>
+                </li>
+                <li>
+                    <a href="index.html" class="nav-item">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-item">Games<span class="arrow">&#9660</span></a>
+                    <div class="nav-content">
+                        <div class="nav-sub">
+                            <ul>
+                                <li><a href="PC-Games.html">PC</a></li>
+                                <li><a href="Console-Games.html">Console</a></li>
+                                <li><a href="Mobile-Games.html">Mobile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="AboutUs.html" class="nav-item">About Us</a>
+                </li>
+            </ul>
+        </nav>
+            <div class="PageBody">
+                <center><img class="PageLogo" src="images/ElementallyLogo1.png" alt="Elementally Logo" height="417" width="851" /></center>
+                <h1 class="SectionHeader"><b>What is this website's focus?</b></h1>
+                <div class="SectionText">
+                    <p><span class="TextFirstWord">Elementally</span> is a website focused on finding and detailing video games
+                    that have content and gameplay aspects revolved around or made up of the popular romanticization of elements; <span class="Ice">Ice</span>, 
+                    <span class="Water">Water</span>, <span class="Earth">Earth</span>, <span class="Electric">Electricity</span>, and <span class="Fire">Fire</span>. <br />
+                    Although these were listed, they are not the only included ones.<br />
+                    Games that include other elements will likely have them included here if it is a major aspect of the game.</p>
+                </div>
+                <h1 class="SectionHeader"><b>What types of Games?</b></h1>
+                <div class="SectionTextLast">
+                    <p>
+                        <span class="TextFirstWord">Every</span> type of game should find its way on to the website as long as it fits the requirement of containing some element focus.<br />
+                        These games will then be categorized based on what platform it is on. For example, Skyrim would be placed under "PC" and "Console" due<br />
+                        to being on both platforms.<br />
+                        For all mobile platforms (Nintendo 3DS/DS, PS vita, etc.), they will be under the "Mobile" category.
+                    </p>
+                </div>
+            </div>
+        </div>
+            <div class="RemoveJS">
+            <script class="JSInjection">
+                    var s = document.querySelectorAll(".nav-sub > ul > li > a");
+                    var i;
+                    for(i=0; i< s.length; i++){
+                        s[i].addEventListener('mousedown', function(e){
+                            e.preventDefault();
+                        });
+                    }
+            </script>﻿
+            </div>
+            <footer class="SiteFooter">
+                <em><p>(c) 2018 Elementally</p></em>
+            </footer>
+    </body>
+</html>

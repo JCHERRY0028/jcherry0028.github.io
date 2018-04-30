@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="css/global.css" type="text/css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crete+Round|Exo+2|Karla|Rajdhani" rel="stylesheet">
+            <meta name="format-detection" content="telephone=no">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head> 
+        <body>
+        <div class="PageWrap">
+            <nav class="nav-main">
+                <ul>
+                    <li>
+                        <a href="#" class="logo">Elementally</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-item">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">Games<span class="arrow">&#9660</span></a>
+                        <div class="nav-content">
+                            <div class="nav-sub">
+                                <ul>
+                                    <li><a href="PC-Games.html">PC</a></li>
+                                    <li><a href="Console-Games.html">Console</a></li>
+                                    <li><a href="Mobile-Games.html">Mobile</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                        <li>
+                            <a href="AboutUs.html" class="nav-item">About Us</a>
+                        </li>
+                    </ul>
+                 </nav>
+        <div class="PageBody">
+            <h1 class="SectionHeaderFirst">Contact Information</h1>
+            <p class="SectionText">
+                <span class="ContactWrap"><span class="ContactInfo">Business Phone Number:</span> (270)555-5555</span><br />
+                <span class="ContactWrap"><span class="ContactInfo">Support Number:</span> (270)999-9999</span><br />
+                <span class="ContactWrap"><span class="ContactInfo">Business E-mail:</span> ElementallyBusiness@email.com</span><br />
+                <span class="ContactWrap"><span class="ContactInfo">Support E-mail:</span> ElementallySupport@email.com</span><br />
+            </p>
+        </div>
+    </div>
+        <div class="RemoveJS">
+                <script class="JSInjection">
+                        var s = document.querySelectorAll(".nav-sub > ul > li > a");
+                        var i;
+                        for(i=0; i< s.length; i++){
+                            s[i].addEventListener('mousedown', function(e){
+                                e.preventDefault();
+                            });
+                        }
+                </script>﻿
+                </div>
+            <footer class="SiteFooter">
+                    <em><p>(c) 2018 Elementally</p></em>
+            </footer>
+        </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="css/global.css" type="text/css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crete+Round|Exo+2|Karla|Rajdhani" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+    <div class="PageWrap">
+        <nav class="nav-main">
+            <ul>
+                <li>
+                    <a href="#" class="logo">Elementally</a>
+                </li>
+                <li>
+                    <a href="index.html" class="nav-item">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-item">Games<span class="arrow">&#9660</span></a>
+                    <div class="nav-content">
+                        <div class="nav-sub">
+                            <ul>
+                                <li><a href="PC-Games.html">PC</a></li>
+                                <li><a href="Console-Games.html">Console</a></li>
+                                <li><a href="Mobile-Games.html">Mobile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="AboutUs.html" class="nav-item">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <center><img class="GameCoverArt" src="images/Skyrim_Cover.png" alt="Skyrim Cover Art" /></center>
+        <h1 class="SectionHeader"><b>Game Summary</b></h1>
+        <div class="SectionText">
+            <p><span class="TextFirstWord">Skyrim</span> is based on a lone adventurer, the player, who may complete quests and fight against a horde of
+                resurrected dragons as well as their leader, <em>Alduin</em>, in order to restore order to the world.</p>
+        </div>
+        <h1 class="SectionHeader"><b>Game Play</b></h1>
+        <div class="GameplayContainer">
+            <center><img class="GameplayPictureFirst" src="images/Skyrim_FrostBiteAttack.png" alt="Skyrim Frostbite Attack"/></center>
+            <center><img class="GameplayPicture" src="images/Skyrim_Flames.jpg" alt="Skyrim Flames Attack"/></center>
+        </div>
+        <h1 class="SectionHeader"><b>Elemental Aspects</b></h1>
+        <div class="SectionText">
+            <p><span class="TextFirstWord">Skyrim</span> is full of magic, weaponry, armory, and many other miscellaneous components.<br />
+                Due to this, the game has included many elemental aspects to impress and entertain the player.<br />
+                Unfortunately, while there are forms of other elements seen in the game the only ones that seemed to have gotten a large
+                amount of focus were; <span class="Ice">Ice</span>, <span class="Electric">Electricity/Lightning</span>, and <span class="Fire">Fire.</span><br />
+                This was likely done in order to simplify the amount of magic spells, in this case specifically the "destruction" kind, and to not have an
+                overwhelming number of them.<br />
+                <br />
+                While Console and Mobile versions (Nintento Switch) cannot utilize game modifications, unless a console player has purchased 
+                <span class="GameTitleText">Skyrim: Special Edition</span>, whereas PC players with any version of the game may download modifications freely or
+                through transactions.<br />
+                With these modifications, players may add in content of their choosing, allowing them to shape the game as they see fit and include whatever elements
+                that didn't make the cut.
+        </div>
+    </div>
+       	<div class="RemoveJS">
+        <script class="JSInjection">
+                    var s = document.querySelectorAll(".nav-sub > ul > li > a");
+                    var i;
+                    for(i=0; i< s.length; i++){
+                        s[i].addEventListener('mousedown', function(e){
+                            e.preventDefault();
+                        });
+                    }
+            </script>﻿
+            </div>
+            <footer class="SiteFooter">
+                <em><p>(c) 2018 Elementally</p></em>
+            </footer>
+    </body>
+</html>

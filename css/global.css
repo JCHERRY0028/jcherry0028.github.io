@@ -1,0 +1,316 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: rgb(165, 165, 165)
+}
+
+.content {
+    padding: 30px;
+}
+
+nav.nav-main {
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    top: 0;
+    font-family: 'Crete Round', 'Bree Serif', serif;
+    font-size: 1em;
+    position: fixed;
+    background-color: rgb(29, 173, 0);
+    color:rgb(223, 223, 223);
+}
+
+.nav-main .logo {
+    float: left;
+    height: 40px;
+    padding: 15px 30px;
+    line-height: 40px;
+    font-size: 1.4em;
+    color:rgb(223, 223, 223);
+    text-decoration: none;
+    cursor: default;
+}
+
+.nav-main > ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.nav-main > ul > li {
+    float: left;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: rgb(36, 204, 3);
+}
+
+/*Hovering over drop-down will display drop-down content*/
+.nav-item:hover  ~ .nav-content {
+    max-height: 400px;
+    -webkit-transition:max-height 0.4s ease-in;
+    -moz-transition:max-height 0.4s ease-in;
+    transition:max-height 0.4s ease-in;
+}
+
+.nav-content:hover {
+    max-height: 400px;
+}
+
+.nav-content {
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+    background-color: rgb(29, 173, 0);
+    color: rgb(223, 223, 223);
+    max-height: 0;
+}
+
+.nav-content a {
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+}
+ /*Drop down list hover colors*/
+.nav-sub ul li:hover {
+    background-color: rgb(36, 204, 3);
+    color: rgb(223, 223, 223);
+}
+
+.nav-sub ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/*Drop down list size and padding*/
+.nav-sub ul li a {
+    width: 79px;
+    display: block;
+    padding: 10px 0;
+    padding-left: 25px;
+}
+
+.nav-sub:hover ul li a {
+    width: 79px;
+    display: block;
+    padding: 10px 0;
+    padding-left: 25px;
+}
+
+.arrow {
+    size: 10%;
+}
+
+/*.PageBody {
+
+}*/
+
+.PageLogo {
+    display: block;
+    max-width: 100%;
+    margin-top: 85px;
+}
+
+/*
+font-family: 'Crete Round', serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Karla', sans-serif;
+*/
+
+.SectionHeaderFirst {
+    display: block;
+    margin-top: 100px;
+    padding: 10px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(29, 173, 0);
+    font-family: 'Crete Round', 'Bree Serif', serif;
+    text-align: center;
+}
+
+.SectionHeader { 
+    display: block;
+    padding: 10px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(29, 173, 0);
+    font-family: 'Crete Round', 'Bree Serif', serif;
+    text-align: center;
+}
+
+.SectionText {
+    display: block;
+    margin: 30px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Exo 2', 'Karla', sans-serif;
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(29, 173, 0); 
+}
+
+.SectionTextLast {
+    display: block;
+    margin: 30px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Exo 2', 'Karla', sans-serif;
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(29, 173, 0); 
+}
+
+.TextFirstWord {
+    color: rgb(29, 173, 0);
+}
+
+.Elemental {
+    color: rgb(82, 82, 82);
+}
+
+.Ice {
+    color: rgb(0, 225, 255);
+}
+
+.Water {
+    color: rgb(0, 110, 255);
+}
+
+.Earth {
+    color: rgb(17, 143, 0);
+}
+
+.Electric {
+    color: rgb(209, 189, 4);
+}
+
+.Fire {
+    color: rgb(255, 38, 0);
+}
+
+.ContactInfo {
+    text-decoration: bold;
+    color: rgb(26, 107, 15);
+}
+
+span.ContactWrap {
+    display: block;
+    padding: 15px;
+}
+
+.GameSelection {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 90%;
+    padding: 30px;
+    border: 4px solid rgb(29, 173, 0);
+    background-color: rgb(236, 236, 236);
+}
+
+a.GameLink {
+    display: inline-block;
+    width: 800px;
+    max-width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 12px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(29, 173, 0);
+    font-family: 'Exo 2', 'Karla', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+a.GameLink:hover {
+    background-color: rgb(36, 204, 3);
+}
+
+.GameCoverArt {
+    display: block;
+    margin-top: 85px;
+    width: 450px;
+    height: 650px;
+    max-width: 100%;
+    border: 3px solid rgb(29, 173, 0);
+}
+
+.GameplayPictureFirst {
+    display: block;
+    width: 1200px;
+    height: 700px;
+    max-width: 90%;
+    border: 3px solid rgb(29, 173, 0)
+}
+
+.GameplayPicture {
+    display: block;
+    width: 1200px;
+    height: 700px;
+    max-width: 90%;
+    margin-top: 20px;
+    border: 3px solid rgb(29, 173, 0)
+}
+
+.WIPHeader {
+    display: block;
+    margin-top: 100px;
+    padding: 10px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(255, 0, 0);
+    font-family: 'Crete Round', 'Bree Serif', serif;
+    text-align: center;
+}
+
+.WIPText {
+    display: block;
+    margin: 30px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Exo 2', 'Karla', sans-serif;
+    background-color: rgb(255, 216, 132);
+    border: 3px solid rgb(255, 0, 0); 
+}
+
+.PageWrap {
+    min-height: 100%;
+}
+
+.PageWrap:after {
+    content: "";
+    display: block;
+}
+
+.SiteFooter {
+    display: block;
+    padding: 30px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(29, 173, 0);
+    font-family: 'Exo 2', 'Karla', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.RemoveJS {
+    display: none;
+    color: rgb(223, 223, 223);
+}
+
+.JSInjection {
+    margin: 0;
+    padding: 0;
+    display: none;
+}

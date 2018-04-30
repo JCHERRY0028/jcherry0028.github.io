@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="css/global.css" type="text/css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crete+Round|Exo+2|Karla|Rajdhani" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+    <div class="PageWrap">
+        <nav class="nav-main">
+            <ul>
+                <li>
+                    <a href="#" class="logo">Elementally</a>
+                </li>
+                <li>
+                    <a href="index.html" class="nav-item">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-item">Games<span class="arrow">&#9660</span></a>
+                    <div class="nav-content">
+                        <div class="nav-sub">
+                            <ul>
+                                <li><a href="PC-Games.html">PC</a></li>
+                                <li><a href="Console-Games.html">Console</a></li>
+                                <li><a href="Mobile-Games.html">Mobile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="AboutUs.html" class="nav-item">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <center><img class="GameCoverArt" src="images/PVZ-GW2_Cover.jpg" alt="Plants versus Zombies: Garden Warfare 2 cover art" /></center>
+        <h1 class="SectionHeader"><b>Game Summary</b></h1>
+        <div class="SectionText">
+            <p><span class="TextFirstWord">Plants vs. Zombies: Garden Warfare 2</span> is based around the <em>Plants vs. Zombies</em> universe where zombies
+                have taken over the world and plants have grown and adapted to fight the zombies off while protecting their owners. In this game, however, you play as either
+                the plants or the zombies in a third person shooter player-versus-player battleground.
+        </div>
+        <h1 class="SectionHeader"><b>Game Play</b></h1>
+        <div class="GameplayContainer">
+            <center><img class="GameplayPictureFirst" src="images/PVZ-GW2_Gameplay1.jpg" alt="Plants versus Zombies: Garden Warfare 2 posing characters"/></center>
+            <center><img class="GameplayPicture" src="images/PVZ-GW2_Gameplay3.jpg" alt="Plants versus Zombies: Garden Warfare 2 combat"/></center>
+        </div>
+        <h1 class="SectionHeader"><b>Elemental Aspects</b></h1>
+        <div class="SectionText">
+            <p><span class="TextFirstWord">Plants vs. Zombies: Garden Warfare 2</span> is full of character with differing playstyles, from close-range melee attackers
+            to long-range snipers, the game has a character to fit each role. Among these characters are <em>variants</em> which are differences to the same character.<br />
+            For example, the cactus has its normal form, as well as an <span class="Ice">Ice</span> form, <span class="Electric">Electric</span> form, 
+            <span class="Fire">Fire</span> form, etc.<br />
+            <br />
+            The game handles <span class="Elemental">Elemental</span> aspects very well, with <span class="Ice">Ice</span> having attacks slow and eventually freezing enemies,
+            <span class="Electric">Electric</span> attacks that arc between enemies, <span class="Fire">Fire</span> attacks causing lasting burn effects, and
+            <span class="Earth">Toxic</span> attacks that cause lasting damaging to enemies, but unlike <span class="Fire">Fire</span> is weaker and longer-lasting.<br />
+            <br />
+            For those wanting "strengths and weaknesses" between each <span class="Elemental">Element</span>, this is not the game for you.<br />
+            In order to ensure fairness and the keep combat from being overly-complicated, <span class="Elemental">Elements</span> will cause their intended effect no matter
+            what <span class="Element">Element</span> the target is.
+            </p>
+        </div>
+	</div>
+       	<div class="RemoveJS">
+        <script class="JSInjection">
+                    var s = document.querySelectorAll(".nav-sub > ul > li > a");
+                    var i;
+                    for(i=0; i< s.length; i++){
+                        s[i].addEventListener('mousedown', function(e){
+                            e.preventDefault();
+                        });
+                    }
+            </script>?
+            </div>
+            <footer class="SiteFooter">
+                <em><p>(c) 2018 Elementally</p></em>
+            </footer>
+    </body>
+</html>
